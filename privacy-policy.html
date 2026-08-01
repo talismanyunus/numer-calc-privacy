@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gizlilik Politikası — Numer Calc</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f8f9ff;
+      color: #1e293b;
+      line-height: 1.7;
+    }
+    header {
+      background: #0f4c81;
+      color: white;
+      padding: 48px 24px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+    header p  { font-size: 14px; opacity: 0.75; }
+    .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.15);
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 12px;
+      margin-top: 12px;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #0f4c81;
+      margin: 36px 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e2e8f0;
+    }
+    h3 { font-size: 15px; font-weight: 600; margin: 20px 0 8px; color: #334155; }
+    p, li { font-size: 15px; color: #475569; margin-bottom: 10px; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 20px;
+      margin: 16px 0;
+      border: 1px solid #e2e8f0;
+    }
+    .highlight {
+      background: #eff6ff;
+      border-left: 4px solid #0f4c81;
+      padding: 14px 18px;
+      border-radius: 0 10px 10px 0;
+      margin: 16px 0;
+    }
+    .delete-box {
+      background: #fff1f2;
+      border: 1px solid #fecdd3;
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .delete-box strong { color: #e11d48; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 14px;
+    }
+    th {
+      background: #f1f5f9;
+      text-align: left;
+      padding: 10px 14px;
+      font-weight: 600;
+      color: #334155;
+    }
+    td { padding: 10px 14px; border-bottom: 1px solid #f1f5f9; color: #475569; }
+    footer {
+      text-align: center;
+      padding: 32px;
+      font-size: 13px;
+      color: #94a3b8;
+      border-top: 1px solid #e2e8f0;
+    }
+    a { color: #0f4c81; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Gizlilik Politikası</h1>
+  <p>Numer Calc — İşletme Yönetim Uygulaması</p>
+  <span class="badge">Son güncelleme: Temmuz 2026</span>
+</header>
+
+<main>
+
+  <div class="highlight">
+    Bu politika, Numer Calc uygulamasının hangi verileri topladığını, nasıl kullandığını
+    ve kullanıcıların haklarını açıklamaktadır.
+  </div>
+
+  <h2>1. Geliştirici Bilgileri</h2>
+  <div class="card">
+    <p><strong>Geliştirici:</strong> YusahMedia</p>
+    <p><strong>Uygulama:</strong> Numer Calc — İşletme Yönetim Sistemi</p>
+    <p><strong>Platform:</strong> iOS (Apple App Store)</p>
+    <p><strong>İletişim:</strong> <a href="mailto:iletisim@yusahmedia.com">iletisim@yusahmedia.com</a></p>
+  </div>
+
+  <h2>2. Toplanan Veriler</h2>
+
+  <h3>Kullanıcı Tarafından Girilen Veriler</h3>
+  <table>
+    <tr><th>Veri Türü</th><th>Amaç</th><th>Saklanma Yeri</th></tr>
+    <tr><td>Ad soyad, kullanıcı adı</td><td>Hesap oluşturma</td><td>Supabase (şifreli)</td></tr>
+    <tr><td>Telefon numarası</td><td>İletişim (opsiyonel)</td><td>Supabase (şifreli)</td></tr>
+    <tr><td>Müşteri bilgileri</td><td>İşletme yönetimi</td><td>Supabase (şifreli)</td></tr>
+    <tr><td>Satış ve fatura kayıtları</td><td>Finansal takip</td><td>Supabase (şifreli)</td></tr>
+    <tr><td>Stok ve ürün bilgileri</td><td>Envanter yönetimi</td><td>Supabase (şifreli)</td></tr>
+    <tr><td>Firma bilgileri</td><td>Fatura oluşturma</td><td>Supabase (şifreli)</td></tr>
+  </table>
+
+  <h3>Otomatik Toplanan Veriler</h3>
+  <ul>
+    <li>Uygulama, kullanım analitikleri veya reklam verisi <strong>toplamaz.</strong></li>
+    <li>Konum verisi <strong>toplanmaz.</strong></li>
+    <li>Cihaz kimliği veya reklam tanımlayıcısı <strong>kullanılmaz.</strong></li>
+    <li>Kamera veya mikrofon erişimi <strong>istenmez.</strong></li>
+  </ul>
+
+  <h2>3. Verilerin Kullanım Amacı</h2>
+  <p>Toplanan veriler yalnızca aşağıdaki amaçlarla kullanılır:</p>
+  <ul>
+    <li>Kullanıcı hesabının oluşturulması ve doğrulanması</li>
+    <li>İşletme verilerinin (müşteri, satış, stok) saklanması ve senkronizasyonu</li>
+    <li>Fatura PDF'lerinin oluşturulması</li>
+    <li>Kritik stok ve sipariş bildirimleri</li>
+  </ul>
+
+  <h2>4. Veri Paylaşımı</h2>
+  <div class="highlight">
+    Verileriniz üçüncü taraflarla, reklam ağlarıyla veya analitik şirketlerle
+    <strong>kesinlikle paylaşılmaz.</strong>
+  </div>
+
+  <h3>Üçüncü Taraf Hizmetler</h3>
+  <table>
+    <tr><th>Hizmet</th><th>Amaç</th><th>Gizlilik Politikası</th></tr>
+    <tr>
+      <td>Supabase</td>
+      <td>Bulut veritabanı (veri depolama)</td>
+      <td><a href="https://supabase.com/privacy" target="_blank">supabase.com/privacy</a></td>
+    </tr>
+  </table>
+  <p>Supabase, verileri ABD ve Avrupa bölgelerindeki güvenli sunucularda saklar.
+     SOC 2 Type II sertifikalıdır.</p>
+
+  <h2>5. Veri Güvenliği</h2>
+  <ul>
+    <li>Tüm veriler HTTPS/TLS ile şifreli olarak iletilir.</li>
+    <li>Şifreler bcrypt ile hashlenerek saklanır; düz metin olarak tutulmaz.</li>
+    <li>Supabase veritabanı erişimi Row Level Security (RLS) ile korunur.</li>
+    <li>API anahtarları uygulama içinde güvenli şekilde saklanır.</li>
+  </ul>
+
+  <h2>6. Veri Saklama Süresi</h2>
+  <p>Verileriniz hesabınız aktif olduğu sürece saklanır. Hesabınızı sildiğinizde
+     tüm verileriniz kalıcı olarak silinir (bkz. Bölüm 7).</p>
+
+  <h2>7. Hesap ve Veri Silme</h2>
+  <div class="delete-box">
+    <p><strong>Hesabınızı uygulama içinden silebilirsiniz:</strong></p>
+    <p>Profil → Hesabı Kalıcı Olarak Sil</p>
+    <p>Bu işlem şunları siler: hesap bilgileri, müşteri kayıtları,
+       satış faturaları, stok verileri, cari hareketler, raporlar.</p>
+    <p><strong>Bu işlem geri alınamaz.</strong></p>
+  </div>
+  <p>E-posta ile silme talebi: <a href="mailto:iletisim@yusahmedia.com">iletisim@yusahmedia.com</a> — 30 gün içinde işleme alınır.</p>
+
+  <h2>8. Kullanıcı Hakları</h2>
+  <p>KVKK (Kişisel Verilerin Korunması Kanunu) ve GDPR kapsamında aşağıdaki haklara sahipsiniz:</p>
+  <ul>
+    <li><strong>Erişim:</strong> Hangi verilerinizin tutulduğunu öğrenme</li>
+    <li><strong>Düzeltme:</strong> Hatalı verilerin güncellenmesini isteme</li>
+    <li><strong>Silme:</strong> Tüm verilerinizin silinmesini talep etme</li>
+    <li><strong>Taşınabilirlik:</strong> Verilerinizin dışa aktarılmasını isteme</li>
+    <li><strong>İtiraz:</strong> Veri işlemeye itiraz etme</li>
+  </ul>
+  <p>Talepler için: <a href="mailto:iletisim@yusahmedia.com">iletisim@yusahmedia.com</a></p>
+
+  <h2>9. Çocukların Gizliliği</h2>
+  <p>Numer Calc bir işletme yönetim uygulamasıdır ve 18 yaş altındaki kişilere
+     yönelik değildir. Bilerek 18 yaş altı kullanıcılardan veri toplamıyoruz.</p>
+
+  <h2>10. Bildirimler</h2>
+  <p>Uygulama aşağıdaki amaçlarla yerel bildirim gönderebilir:</p>
+  <ul>
+    <li>Kritik stok uyarıları</li>
+    <li>Bekleyen sipariş hatırlatıcıları</li>
+    <li>Günlük işletme özeti</li>
+  </ul>
+  <p>Bildirimleri iOS Ayarlar → Numer Calc bölümünden kapatabilirsiniz.</p>
+
+  <h2>11. Politika Değişiklikleri</h2>
+  <p>Bu politikada yapılacak önemli değişiklikler uygulama içi bildirimle duyurulacaktır.
+     Güncel politikaya her zaman bu sayfadan ulaşabilirsiniz.</p>
+
+  <h2>12. İletişim</h2>
+  <div class="card">
+    <p><strong>YusahMedia</strong></p>
+    <p>E-posta: <a href="mailto:iletisim@yusahmedia.com">iletisim@yusahmedia.com</a></p>
+    <p>Gizlilik politikasıyla ilgili sorularınız veya talepleriniz için 5 iş günü içinde yanıt verilir.</p>
+  </div>
+
+</main>
+
+<footer>
+  <p>© 2026 YusahMedia — Numer Calc Gizlilik Politikası</p>
+  <p>Bu politika Türkiye Cumhuriyeti KVKK ve AB GDPR mevzuatına uygun hazırlanmıştır.</p>
+</footer>
+
+</body>
+</html>
